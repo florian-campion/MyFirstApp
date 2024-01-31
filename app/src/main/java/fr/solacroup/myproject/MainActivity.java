@@ -7,16 +7,18 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import java.util.ArrayList;
 
+import fr.solacroup.myproject.domain.Task;
+
 public class MainActivity extends AppCompatActivity {
 
-    private ArrayList<String> tasks = new ArrayList<>();
+    private ArrayList<Task> tasks = new ArrayList<>();
 
-    public ArrayList<String> getTasks() {
+    public ArrayList<Task> getTasks() {
         return tasks;
     }
 
     public void addTask(String task) {
-        this.tasks.add(task);
+        this.tasks.add(new Task(task, null,null));
     }
 
     @Override
