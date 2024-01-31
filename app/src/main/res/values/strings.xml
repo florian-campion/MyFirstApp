@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">TodoList</string>
+    <string name="app_name">Todo List</string>
     <string name="hello_world">Bienvenue!</string>
     <string name="mon_bouton">Mon bouton</string>
     <!-- TODO: Remove or change this placeholder text -->
